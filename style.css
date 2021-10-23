@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box 
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+
+body{
+    background-color: #c655ff;
+}
+
+  .header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+#menuprincipal{
+    background-color: #c655ff;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    word-spacing: 25px;
+    display: flex;
+    justify-content: start
+}
+
+main {
+    display: flex;
+}
+
+main > div {
+    display: flex;
+    flex: 1;
+}
+
+.publicidad{
+    width: auto;
+    background-color: #b042e7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+Article{
+    background-color: #c655ff;
+    color:blanchedalmond;
+    padding: 15px;
+}
+
+.CajaHeader{
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.CajaSection{
+    display: flex;
+    justify-content:space-around;
+}
+
+.CajaFooter{
+    background-color: #9f3fcf;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: first baseline;
+
+}
+
+
+
+/* Mobile first */
+[class*="col-"] {
+    width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    /*para escritorio*/
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
